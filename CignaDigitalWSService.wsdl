@@ -1,0 +1,2772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="CignaDigitalWSService" targetNamespace="http://webservice.digital.cigna.com/" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:tns="http://webservice.digital.cigna.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata">
+  <types>
+    <xsd:schema>
+      <xsd:import namespace="http://webservice.digital.cigna.com/" schemaLocation="CignaDigitalWSService_schema1.xsd"/>
+    </xsd:schema>
+  </types>
+  <message name="GetPersonListBasicInfoResponse">
+    <part name="result" element="tns:GetPersonListBasicInfoResponse">
+    </part>
+  </message>
+  <message name="UpdateWorkingHour">
+    <part name="parameters" element="tns:UpdateWorkingHour">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="UpdatePolicyAgentListResponse">
+    <part name="result" element="tns:UpdatePolicyAgentListResponse">
+    </part>
+  </message>
+  <message name="VerifyPolicyInfo">
+    <part name="parameters" element="tns:VerifyPolicyInfo">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetBrokerClaimPendingMemoList">
+    <part name="parameters" element="tns:GetBrokerClaimPendingMemoList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPersonMovementHistory">
+    <part name="parameters" element="tns:GetPersonMovementHistory">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetProspectListBasicByCriteriaResponse">
+    <part name="result" element="tns:GetProspectListBasicByCriteriaResponse">
+    </part>
+  </message>
+  <message name="UpdateWorkGroup">
+    <part name="parameters" element="tns:UpdateWorkGroup">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="RegisterCareVoiceUserResponse">
+    <part name="result" element="tns:RegisterCareVoiceUserResponse">
+    </part>
+  </message>
+  <message name="ValidateUserResponse">
+    <part name="result" element="tns:ValidateUserResponse">
+    </part>
+  </message>
+  <message name="GetUWCommentsResponse">
+    <part name="result" element="tns:GetUWCommentsResponse">
+    </part>
+  </message>
+  <message name="SetNBComplete">
+    <part name="parameters" element="tns:SetNBComplete">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyAvailFundListBasicResponse">
+    <part name="result" element="tns:GetPolicyAvailFundListBasicResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPersonListBasicByCriteria">
+    <part name="parameters" element="tns:GetPolicyPersonListBasicByCriteria">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="CheckProductEligibilityByCriteriaResponse">
+    <part name="result" element="tns:CheckProductEligibilityByCriteriaResponse">
+    </part>
+  </message>
+  <message name="SetCompanyLink">
+    <part name="parameters" element="tns:SetCompanyLink">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="UpdateWorkingHourResponse">
+    <part name="result" element="tns:UpdateWorkingHourResponse">
+    </part>
+  </message>
+  <message name="GetContactHistoryDetailsResponse">
+    <part name="result" element="tns:GetContactHistoryDetailsResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPaymentBasic_DAResponse">
+    <part name="result" element="tns:GetPolicyPaymentBasic_DAResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPersonListBasic">
+    <part name="parameters" element="tns:GetPolicyPersonListBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetMasterListResponse">
+    <part name="result" element="tns:GetMasterListResponse">
+    </part>
+  </message>
+  <message name="GetPersonListBasicByCriteria_DA">
+    <part name="parameters" element="tns:GetPersonListBasicByCriteria_DA">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="CreateUser">
+    <part name="parameters" element="tns:CreateUser">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetRiskProfileHistoryResponse">
+    <part name="result" element="tns:GetRiskProfileHistoryResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPersonListBasic_DAResponse">
+    <part name="result" element="tns:GetPolicyPersonListBasic_DAResponse">
+    </part>
+  </message>
+  <message name="GetProspectListBasicByCriteria">
+    <part name="parameters" element="tns:GetProspectListBasicByCriteria">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyReplacementChangeHistory">
+    <part name="parameters" element="tns:GetPolicyReplacementChangeHistory">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="UpdateCaseInfo">
+    <part name="parameters" element="tns:UpdateCaseInfo">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SetCompanyLinkResponse">
+    <part name="result" element="tns:SetCompanyLinkResponse">
+    </part>
+  </message>
+  <message name="UpdateCaseInfoResponse">
+    <part name="result" element="tns:UpdateCaseInfoResponse">
+    </part>
+  </message>
+  <message name="ReplyWorkPendingMemo">
+    <part name="parameters" element="tns:ReplyWorkPendingMemo">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SubmitClaim">
+    <part name="parameters" element="tns:SubmitClaim">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyClaimBasic">
+    <part name="parameters" element="tns:GetPolicyClaimBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="UpdateCustomerSenvCode">
+    <part name="parameters" element="tns:UpdateCustomerSenvCode">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SendSMS">
+    <part name="parameters" element="tns:SendSMS">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="UpdateWhatsappUser">
+    <part name="parameters" element="tns:UpdateWhatsappUser">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyFundListHistBasicResponse">
+    <part name="result" element="tns:GetPolicyFundListHistBasicResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPaymentBasic">
+    <part name="parameters" element="tns:GetPolicyPaymentBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetClaimPendingMemoListResponse">
+    <part name="result" element="tns:GetClaimPendingMemoListResponse">
+    </part>
+  </message>
+  <message name="GetPersonShortfallBasicByCriteria">
+    <part name="parameters" element="tns:GetPersonShortfallBasicByCriteria">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPlanInfoListBasicResponse">
+    <part name="result" element="tns:GetPlanInfoListBasicResponse">
+    </part>
+  </message>
+  <message name="UpdateUserResponse">
+    <part name="result" element="tns:UpdateUserResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPersonListBasicByCriteria_DA">
+    <part name="parameters" element="tns:GetPolicyPersonListBasicByCriteria_DA">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetMedicalProviderListResponse">
+    <part name="result" element="tns:GetMedicalProviderListResponse">
+    </part>
+  </message>
+  <message name="GetPlanInfoListBasic">
+    <part name="parameters" element="tns:GetPlanInfoListBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SubmitWorkRequest">
+    <part name="parameters" element="tns:SubmitWorkRequest">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetClientMemberMovementResult">
+    <part name="parameters" element="tns:GetClientMemberMovementResult">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyNameScreeningList">
+    <part name="parameters" element="tns:GetPolicyNameScreeningList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyPersonCoverageBasicResponse">
+    <part name="result" element="tns:GetPolicyPersonCoverageBasicResponse">
+    </part>
+  </message>
+  <message name="GetEMedicalCardsBasicByCriteria">
+    <part name="parameters" element="tns:GetEMedicalCardsBasicByCriteria">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetDiscountListBasic">
+    <part name="parameters" element="tns:GetDiscountListBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyListBasicByCriteria_DA">
+    <part name="parameters" element="tns:GetPolicyListBasicByCriteria_DA">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="ValidateWhatsappUser">
+    <part name="parameters" element="tns:ValidateWhatsappUser">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetUWMessages">
+    <part name="parameters" element="tns:GetUWMessages">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetClientMemberMovementResultResponse">
+    <part name="result" element="tns:GetClientMemberMovementResultResponse">
+    </part>
+  </message>
+  <message name="SubmitLHBApplicationRequest">
+    <part name="parameters" element="tns:SubmitLHBApplicationRequest">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="UpdateAgentHierarchyResponse">
+    <part name="result" element="tns:UpdateAgentHierarchyResponse">
+    </part>
+  </message>
+  <message name="GetPolicyFundListHistBasic">
+    <part name="parameters" element="tns:GetPolicyFundListHistBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyPersonCoverageBasic_DAResponse">
+    <part name="result" element="tns:GetPolicyPersonCoverageBasic_DAResponse">
+    </part>
+  </message>
+  <message name="GetPersonPaymentBasic">
+    <part name="parameters" element="tns:GetPersonPaymentBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="ValidateWhatsappUserResponse">
+    <part name="result" element="tns:ValidateWhatsappUserResponse">
+    </part>
+  </message>
+  <message name="SetNBDropOff">
+    <part name="parameters" element="tns:SetNBDropOff">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="UpdatePolicyReplacementDetailsResponse">
+    <part name="result" element="tns:UpdatePolicyReplacementDetailsResponse">
+    </part>
+  </message>
+  <message name="GetWorkStatusResponse">
+    <part name="result" element="tns:GetWorkStatusResponse">
+    </part>
+  </message>
+  <message name="GetPolicyListBasicByCriteria_DAResponse">
+    <part name="result" element="tns:GetPolicyListBasicByCriteria_DAResponse">
+    </part>
+  </message>
+  <message name="SubmitNBSummary">
+    <part name="parameters" element="tns:SubmitNBSummary">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetClaimListBasicByCriteriaResponse">
+    <part name="result" element="tns:GetClaimListBasicByCriteriaResponse">
+    </part>
+  </message>
+  <message name="GetPersonShortfallBasicByCriteriaResponse">
+    <part name="result" element="tns:GetPersonShortfallBasicByCriteriaResponse">
+    </part>
+  </message>
+  <message name="GetPolicyReplacementChangeHistoryResponse">
+    <part name="result" element="tns:GetPolicyReplacementChangeHistoryResponse">
+    </part>
+  </message>
+  <message name="GetPersonBasic_DAResponse">
+    <part name="result" element="tns:GetPersonBasic_DAResponse">
+    </part>
+  </message>
+  <message name="SubmitNBSummaryResponse">
+    <part name="result" element="tns:SubmitNBSummaryResponse">
+    </part>
+  </message>
+  <message name="GetPolicyTransactionHistory">
+    <part name="parameters" element="tns:GetPolicyTransactionHistory">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="RegisterUserResponse">
+    <part name="result" element="tns:RegisterUserResponse">
+    </part>
+  </message>
+  <message name="GetPolicyBasic_DA">
+    <part name="parameters" element="tns:GetPolicyBasic_DA">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyPlanNumberListResponse">
+    <part name="result" element="tns:GetPolicyPlanNumberListResponse">
+    </part>
+  </message>
+  <message name="UploadFile">
+    <part name="parameters" element="tns:UploadFile">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetRiskProfileHistory">
+    <part name="parameters" element="tns:GetRiskProfileHistory">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="ReplyClaimPendingMemo">
+    <part name="parameters" element="tns:ReplyClaimPendingMemo">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetUWComments">
+    <part name="parameters" element="tns:GetUWComments">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetClinicVisitCount">
+    <part name="parameters" element="tns:GetClinicVisitCount">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetUserListByCriteriaResponse">
+    <part name="result" element="tns:GetUserListByCriteriaResponse">
+    </part>
+  </message>
+  <message name="GetPolicyTransactionHistoryResponse">
+    <part name="result" element="tns:GetPolicyTransactionHistoryResponse">
+    </part>
+  </message>
+  <message name="GetPolicyFundListBasicResponse">
+    <part name="result" element="tns:GetPolicyFundListBasicResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPersonCoverageBasic">
+    <part name="parameters" element="tns:GetPolicyPersonCoverageBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SubmitClaimAttachmentResponse">
+    <part name="result" element="tns:SubmitClaimAttachmentResponse">
+    </part>
+  </message>
+  <message name="GetSensitivityCodeList">
+    <part name="parameters" element="tns:GetSensitivityCodeList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPersonBasic_DA">
+    <part name="parameters" element="tns:GetPersonBasic_DA">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyDocTypeList">
+    <part name="parameters" element="tns:GetPolicyDocTypeList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="ValidateUser">
+    <part name="parameters" element="tns:ValidateUser">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="UploadFileResponse">
+    <part name="result" element="tns:UploadFileResponse">
+    </part>
+  </message>
+  <message name="GetWorkDoc">
+    <part name="parameters" element="tns:GetWorkDoc">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetImpairmentCodeList">
+    <part name="parameters" element="tns:GetImpairmentCodeList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="CreateUserResponse">
+    <part name="result" element="tns:CreateUserResponse">
+    </part>
+  </message>
+  <message name="GetWorkPendingMemoMsg">
+    <part name="parameters" element="tns:GetWorkPendingMemoMsg">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetMasterList">
+    <part name="parameters" element="tns:GetMasterList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetFilteredOFCAPhoneList">
+    <part name="parameters" element="tns:GetFilteredOFCAPhoneList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SubmitClaimRequestResponse">
+    <part name="result" element="tns:SubmitClaimRequestResponse">
+    </part>
+  </message>
+  <message name="GetCompanyListResponse">
+    <part name="result" element="tns:GetCompanyListResponse">
+    </part>
+  </message>
+  <message name="GetPolicyBranchCodeListResponse">
+    <part name="result" element="tns:GetPolicyBranchCodeListResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPersonListBasicResponse">
+    <part name="result" element="tns:GetPolicyPersonListBasicResponse">
+    </part>
+  </message>
+  <message name="GetPersonBasic">
+    <part name="parameters" element="tns:GetPersonBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetImpairmentCodeListResponse">
+    <part name="result" element="tns:GetImpairmentCodeListResponse">
+    </part>
+  </message>
+  <message name="SubmitClaimResponse">
+    <part name="result" element="tns:SubmitClaimResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPaymentBasic_DA">
+    <part name="parameters" element="tns:GetPolicyPaymentBasic_DA">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="RegisterUser">
+    <part name="parameters" element="tns:RegisterUser">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyBranchCodeList">
+    <part name="parameters" element="tns:GetPolicyBranchCodeList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPersonBasicResponse">
+    <part name="result" element="tns:GetPersonBasicResponse">
+    </part>
+  </message>
+  <message name="CheckProductEligibilityByCriteria">
+    <part name="parameters" element="tns:CheckProductEligibilityByCriteria">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="ReplyUWMessageResponse">
+    <part name="result" element="tns:ReplyUWMessageResponse">
+    </part>
+  </message>
+  <message name="SubmitPolicyAssessmentResponse">
+    <part name="result" element="tns:SubmitPolicyAssessmentResponse">
+    </part>
+  </message>
+  <message name="GetEMedicalCardsByCriteria">
+    <part name="parameters" element="tns:GetEMedicalCardsByCriteria">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="RegisterPartnerUserResponse">
+    <part name="result" element="tns:RegisterPartnerUserResponse">
+    </part>
+  </message>
+  <message name="GetPolicyBillingListBasicResponse">
+    <part name="result" element="tns:GetPolicyBillingListBasicResponse">
+    </part>
+  </message>
+  <message name="UpdateWhatsappUserResponse">
+    <part name="result" element="tns:UpdateWhatsappUserResponse">
+    </part>
+  </message>
+  <message name="SendNotification">
+    <part name="parameters" element="tns:SendNotification">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GenerateReportResponse">
+    <part name="result" element="tns:GenerateReportResponse">
+    </part>
+  </message>
+  <message name="GetClinicVisitCountResponse">
+    <part name="result" element="tns:GetClinicVisitCountResponse">
+    </part>
+  </message>
+  <message name="GetPolicyBasic">
+    <part name="parameters" element="tns:GetPolicyBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetMessagePolicyListResponse">
+    <part name="result" element="tns:GetMessagePolicyListResponse">
+    </part>
+  </message>
+  <message name="SetNBCompleteResponse">
+    <part name="result" element="tns:SetNBCompleteResponse">
+    </part>
+  </message>
+  <message name="GetPolicyDocTypeListResponse">
+    <part name="result" element="tns:GetPolicyDocTypeListResponse">
+    </part>
+  </message>
+  <message name="UpdateAgentHierarchy">
+    <part name="parameters" element="tns:UpdateAgentHierarchy">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetClaimPendingMemoList">
+    <part name="parameters" element="tns:GetClaimPendingMemoList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetFundPriceListHistBasic">
+    <part name="parameters" element="tns:GetFundPriceListHistBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyNameScreeningListResponse">
+    <part name="result" element="tns:GetPolicyNameScreeningListResponse">
+    </part>
+  </message>
+  <message name="ReplyWorkPendingMemoResponse">
+    <part name="result" element="tns:ReplyWorkPendingMemoResponse">
+    </part>
+  </message>
+  <message name="GetPolicyClaimBasicResponse">
+    <part name="result" element="tns:GetPolicyClaimBasicResponse">
+    </part>
+  </message>
+  <message name="GetFundPriceListLatestBasic">
+    <part name="parameters" element="tns:GetFundPriceListLatestBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyPersonListBasic_DA">
+    <part name="parameters" element="tns:GetPolicyPersonListBasic_DA">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyListBasicByCriteria">
+    <part name="parameters" element="tns:GetPolicyListBasicByCriteria">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SendRegistrationCodeResponse">
+    <part name="result" element="tns:SendRegistrationCodeResponse">
+    </part>
+  </message>
+  <message name="ReplyClaimPendingMemoResponse">
+    <part name="result" element="tns:ReplyClaimPendingMemoResponse">
+    </part>
+  </message>
+  <message name="SendEMailResponse">
+    <part name="result" element="tns:SendEMailResponse">
+    </part>
+  </message>
+  <message name="SubmitPolicyNameScreeningResponse">
+    <part name="result" element="tns:SubmitPolicyNameScreeningResponse">
+    </part>
+  </message>
+  <message name="GetPolicyListBasicByCriteriaResponse">
+    <part name="result" element="tns:GetPolicyListBasicByCriteriaResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPersonListBasicByCriteriaResponse">
+    <part name="result" element="tns:GetPolicyPersonListBasicByCriteriaResponse">
+    </part>
+  </message>
+  <message name="SetNBDropOffResponse">
+    <part name="result" element="tns:SetNBDropOffResponse">
+    </part>
+  </message>
+  <message name="SubmitPolicyNameScreening">
+    <part name="parameters" element="tns:SubmitPolicyNameScreening">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GenerateReport">
+    <part name="parameters" element="tns:GenerateReport">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SubmitPolicyAssessment">
+    <part name="parameters" element="tns:SubmitPolicyAssessment">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetEMedicalCardsBasicByCriteriaResponse">
+    <part name="result" element="tns:GetEMedicalCardsBasicByCriteriaResponse">
+    </part>
+  </message>
+  <message name="GetPolicyBasic_DAResponse">
+    <part name="result" element="tns:GetPolicyBasic_DAResponse">
+    </part>
+  </message>
+  <message name="UpdatePolicyDoc">
+    <part name="parameters" element="tns:UpdatePolicyDoc">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetDiscountListBasicResponse">
+    <part name="result" element="tns:GetDiscountListBasicResponse">
+    </part>
+  </message>
+  <message name="UpdateWorkGroupResponse">
+    <part name="result" element="tns:UpdateWorkGroupResponse">
+    </part>
+  </message>
+  <message name="GetUserListByCriteria">
+    <part name="parameters" element="tns:GetUserListByCriteria">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="UpdatePolicyAgentList">
+    <part name="parameters" element="tns:UpdatePolicyAgentList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetMedicalProviderList">
+    <part name="parameters" element="tns:GetMedicalProviderList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetContactHistoryDetails">
+    <part name="parameters" element="tns:GetContactHistoryDetails">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetAuditTrailResponse">
+    <part name="result" element="tns:GetAuditTrailResponse">
+    </part>
+  </message>
+  <message name="GetPolicyDocResponse">
+    <part name="result" element="tns:GetPolicyDocResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPersonListBasicByCriteria_DAResponse">
+    <part name="result" element="tns:GetPolicyPersonListBasicByCriteria_DAResponse">
+    </part>
+  </message>
+  <message name="GetSensitivityCodeListResponse">
+    <part name="result" element="tns:GetSensitivityCodeListResponse">
+    </part>
+  </message>
+  <message name="RegisterPartnerUser">
+    <part name="parameters" element="tns:RegisterPartnerUser">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyListStatus_DAResponse">
+    <part name="result" element="tns:GetPolicyListStatus_DAResponse">
+    </part>
+  </message>
+  <message name="VerifyPolicyInfoResponse">
+    <part name="result" element="tns:VerifyPolicyInfoResponse">
+    </part>
+  </message>
+  <message name="GetCompanyList">
+    <part name="parameters" element="tns:GetCompanyList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SendSMSResponse">
+    <part name="result" element="tns:SendSMSResponse">
+    </part>
+  </message>
+  <message name="GetPersonListBasicByCriteriaResponse">
+    <part name="result" element="tns:GetPersonListBasicByCriteriaResponse">
+    </part>
+  </message>
+  <message name="GetEMedicalCardsByCriteriaResponse">
+    <part name="result" element="tns:GetEMedicalCardsByCriteriaResponse">
+    </part>
+  </message>
+  <message name="SubmitWorkRequestResponse">
+    <part name="result" element="tns:SubmitWorkRequestResponse">
+    </part>
+  </message>
+  <message name="GetUserByCriteria">
+    <part name="parameters" element="tns:GetUserByCriteria">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPersonListBasicInfo">
+    <part name="parameters" element="tns:GetPersonListBasicInfo">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyBillingListBasic">
+    <part name="parameters" element="tns:GetPolicyBillingListBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetFundPriceListLatestBasicResponse">
+    <part name="result" element="tns:GetFundPriceListLatestBasicResponse">
+    </part>
+  </message>
+  <message name="GetWorkPendingMemoMsgResponse">
+    <part name="result" element="tns:GetWorkPendingMemoMsgResponse">
+    </part>
+  </message>
+  <message name="ReplyUWMessage">
+    <part name="parameters" element="tns:ReplyUWMessage">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetAuditTrail">
+    <part name="parameters" element="tns:GetAuditTrail">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="UpdatePersonInfoResponse">
+    <part name="result" element="tns:UpdatePersonInfoResponse">
+    </part>
+  </message>
+  <message name="GetPersonListBasicByCriteria">
+    <part name="parameters" element="tns:GetPersonListBasicByCriteria">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SendNotificationResponse">
+    <part name="result" element="tns:SendNotificationResponse">
+    </part>
+  </message>
+  <message name="GetFilteredOFCAPhoneListResponse">
+    <part name="result" element="tns:GetFilteredOFCAPhoneListResponse">
+    </part>
+  </message>
+  <message name="GetPersonPaymentBasicResponse">
+    <part name="result" element="tns:GetPersonPaymentBasicResponse">
+    </part>
+  </message>
+  <message name="GetPersonListBasicByCriteria_DAResponse">
+    <part name="result" element="tns:GetPersonListBasicByCriteria_DAResponse">
+    </part>
+  </message>
+  <message name="UpdatePersonInfo">
+    <part name="parameters" element="tns:UpdatePersonInfo">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetBrokerClaimPendingMemoListResponse">
+    <part name="result" element="tns:GetBrokerClaimPendingMemoListResponse">
+    </part>
+  </message>
+  <message name="GetPolicyListStatus_DA">
+    <part name="parameters" element="tns:GetPolicyListStatus_DA">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyPersonCoverageBasic_DA">
+    <part name="parameters" element="tns:GetPolicyPersonCoverageBasic_DA">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SendRegistrationCode">
+    <part name="parameters" element="tns:SendRegistrationCode">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetWorkDocResponse">
+    <part name="result" element="tns:GetWorkDocResponse">
+    </part>
+  </message>
+  <message name="SendEMail">
+    <part name="parameters" element="tns:SendEMail">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetClaimListBasicByCriteria">
+    <part name="parameters" element="tns:GetClaimListBasicByCriteria">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyFundListBasic">
+    <part name="parameters" element="tns:GetPolicyFundListBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetWorkStatus">
+    <part name="parameters" element="tns:GetWorkStatus">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetUserByCriteriaResponse">
+    <part name="result" element="tns:GetUserByCriteriaResponse">
+    </part>
+  </message>
+  <message name="UpdateCustomerSenvCodeResponse">
+    <part name="result" element="tns:UpdateCustomerSenvCodeResponse">
+    </part>
+  </message>
+  <message name="GetFundPriceListHistBasicResponse">
+    <part name="result" element="tns:GetFundPriceListHistBasicResponse">
+    </part>
+  </message>
+  <message name="UpdatePolicyReplacementDetails">
+    <part name="parameters" element="tns:UpdatePolicyReplacementDetails">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyAvailFundListBasic">
+    <part name="parameters" element="tns:GetPolicyAvailFundListBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyDoc">
+    <part name="parameters" element="tns:GetPolicyDoc">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetProspectBasicResponse">
+    <part name="result" element="tns:GetProspectBasicResponse">
+    </part>
+  </message>
+  <message name="SubmitLHBApplicationRequestResponse">
+    <part name="result" element="tns:SubmitLHBApplicationRequestResponse">
+    </part>
+  </message>
+  <message name="GetPolicyPaymentBasicResponse">
+    <part name="result" element="tns:GetPolicyPaymentBasicResponse">
+    </part>
+  </message>
+  <message name="GetMessagePolicyList">
+    <part name="parameters" element="tns:GetMessagePolicyList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="RegisterCareVoiceUser">
+    <part name="parameters" element="tns:RegisterCareVoiceUser">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyPlanNumberList">
+    <part name="parameters" element="tns:GetPolicyPlanNumberList">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPersonMovementHistoryResponse">
+    <part name="result" element="tns:GetPersonMovementHistoryResponse">
+    </part>
+  </message>
+  <message name="UpdatePolicyDocResponse">
+    <part name="result" element="tns:UpdatePolicyDocResponse">
+    </part>
+  </message>
+  <message name="GetProspectBasic">
+    <part name="parameters" element="tns:GetProspectBasic">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="UpdateUser">
+    <part name="parameters" element="tns:UpdateUser">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="GetPolicyBasicResponse">
+    <part name="result" element="tns:GetPolicyBasicResponse">
+    </part>
+  </message>
+  <message name="GetUWMessagesResponse">
+    <part name="result" element="tns:GetUWMessagesResponse">
+    </part>
+  </message>
+  <message name="SubmitClaimAttachment">
+    <part name="parameters" element="tns:SubmitClaimAttachment">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <message name="SubmitClaimRequest">
+    <part name="parameters" element="tns:SubmitClaimRequest">
+    </part>
+    <part name="SrvAccountName" element="tns:SrvAccountName">
+    </part>
+  </message>
+  <portType name="CignaDigitalWS">
+    <operation name="CheckProductEligibilityByCriteria" parameterOrder="parameters SrvAccountName">
+      <input message="tns:CheckProductEligibilityByCriteria" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/CheckProductEligibilityByCriteriaRequest">
+    </input>
+      <output message="tns:CheckProductEligibilityByCriteriaResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/CheckProductEligibilityByCriteriaResponse">
+    </output>
+    </operation>
+    <operation name="VerifyPolicyInfo" parameterOrder="parameters SrvAccountName">
+      <input message="tns:VerifyPolicyInfo" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/VerifyPolicyInfoRequest">
+    </input>
+      <output message="tns:VerifyPolicyInfoResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/VerifyPolicyInfoResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyPersonListBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyPersonListBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonListBasicRequest">
+    </input>
+      <output message="tns:GetPolicyPersonListBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonListBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyPaymentBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyPaymentBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPaymentBasicRequest">
+    </input>
+      <output message="tns:GetPolicyPaymentBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPaymentBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyPaymentBasic_DA" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyPaymentBasic_DA" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPaymentBasic_DARequest">
+    </input>
+      <output message="tns:GetPolicyPaymentBasic_DAResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPaymentBasic_DAResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyBillingListBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyBillingListBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyBillingListBasicRequest">
+    </input>
+      <output message="tns:GetPolicyBillingListBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyBillingListBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyFundListBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyFundListBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyFundListBasicRequest">
+    </input>
+      <output message="tns:GetPolicyFundListBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyFundListBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyFundListHistBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyFundListHistBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyFundListHistBasicRequest">
+    </input>
+      <output message="tns:GetPolicyFundListHistBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyFundListHistBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyListBasicByCriteria" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyListBasicByCriteria" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyListBasicByCriteriaRequest">
+    </input>
+      <output message="tns:GetPolicyListBasicByCriteriaResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyListBasicByCriteriaResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyListBasicByCriteria_DA" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyListBasicByCriteria_DA" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyListBasicByCriteria_DARequest">
+    </input>
+      <output message="tns:GetPolicyListBasicByCriteria_DAResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyListBasicByCriteria_DAResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyPersonListBasicByCriteria" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyPersonListBasicByCriteria" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonListBasicByCriteriaRequest">
+    </input>
+      <output message="tns:GetPolicyPersonListBasicByCriteriaResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonListBasicByCriteriaResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyPersonListBasicByCriteria_DA" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyPersonListBasicByCriteria_DA" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonListBasicByCriteria_DARequest">
+    </input>
+      <output message="tns:GetPolicyPersonListBasicByCriteria_DAResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonListBasicByCriteria_DAResponse">
+    </output>
+    </operation>
+    <operation name="GetPersonBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPersonBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonBasicRequest">
+    </input>
+      <output message="tns:GetPersonBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPersonBasic_DA" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPersonBasic_DA" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonBasic_DARequest">
+    </input>
+      <output message="tns:GetPersonBasic_DAResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonBasic_DAResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyBasicRequest">
+    </input>
+      <output message="tns:GetPolicyBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyBasic_DA" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyBasic_DA" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyBasic_DARequest">
+    </input>
+      <output message="tns:GetPolicyBasic_DAResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyBasic_DAResponse">
+    </output>
+    </operation>
+    <operation name="GetClinicVisitCount" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetClinicVisitCount" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetClinicVisitCountRequest">
+    </input>
+      <output message="tns:GetClinicVisitCountResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetClinicVisitCountResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyPersonCoverageBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyPersonCoverageBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonCoverageBasicRequest">
+    </input>
+      <output message="tns:GetPolicyPersonCoverageBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonCoverageBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyPersonCoverageBasic_DA" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyPersonCoverageBasic_DA" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonCoverageBasic_DARequest">
+    </input>
+      <output message="tns:GetPolicyPersonCoverageBasic_DAResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonCoverageBasic_DAResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyClaimBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyClaimBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyClaimBasicRequest">
+    </input>
+      <output message="tns:GetPolicyClaimBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyClaimBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyPersonListBasic_DA" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyPersonListBasic_DA" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonListBasic_DARequest">
+    </input>
+      <output message="tns:GetPolicyPersonListBasic_DAResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPersonListBasic_DAResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyDocTypeList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyDocTypeList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyDocTypeListRequest">
+    </input>
+      <output message="tns:GetPolicyDocTypeListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyDocTypeListResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyDoc" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyDoc" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyDocRequest">
+    </input>
+      <output message="tns:GetPolicyDocResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyDocResponse">
+    </output>
+    </operation>
+    <operation name="UpdatePolicyDoc" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UpdatePolicyDoc" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdatePolicyDocRequest">
+    </input>
+      <output message="tns:UpdatePolicyDocResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdatePolicyDocResponse">
+    </output>
+    </operation>
+    <operation name="SetNBComplete" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SetNBComplete" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SetNBCompleteRequest">
+    </input>
+      <output message="tns:SetNBCompleteResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SetNBCompleteResponse">
+    </output>
+    </operation>
+    <operation name="SetNBDropOff" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SetNBDropOff" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SetNBDropOffRequest">
+    </input>
+      <output message="tns:SetNBDropOffResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SetNBDropOffResponse">
+    </output>
+    </operation>
+    <operation name="GetPersonListBasicByCriteria_DA" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPersonListBasicByCriteria_DA" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonListBasicByCriteria_DARequest">
+    </input>
+      <output message="tns:GetPersonListBasicByCriteria_DAResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonListBasicByCriteria_DAResponse">
+    </output>
+    </operation>
+    <operation name="GetPersonListBasicByCriteria" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPersonListBasicByCriteria" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonListBasicByCriteriaRequest">
+    </input>
+      <output message="tns:GetPersonListBasicByCriteriaResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonListBasicByCriteriaResponse">
+    </output>
+    </operation>
+    <operation name="GetClaimListBasicByCriteria" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetClaimListBasicByCriteria" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetClaimListBasicByCriteriaRequest">
+    </input>
+      <output message="tns:GetClaimListBasicByCriteriaResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetClaimListBasicByCriteriaResponse">
+    </output>
+    </operation>
+    <operation name="GetBrokerClaimPendingMemoList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetBrokerClaimPendingMemoList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetBrokerClaimPendingMemoListRequest">
+    </input>
+      <output message="tns:GetBrokerClaimPendingMemoListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetBrokerClaimPendingMemoListResponse">
+    </output>
+    </operation>
+    <operation name="GetClaimPendingMemoList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetClaimPendingMemoList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetClaimPendingMemoListRequest">
+    </input>
+      <output message="tns:GetClaimPendingMemoListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetClaimPendingMemoListResponse">
+    </output>
+    </operation>
+    <operation name="GetWorkDoc" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetWorkDoc" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetWorkDocRequest">
+    </input>
+      <output message="tns:GetWorkDocResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetWorkDocResponse">
+    </output>
+    </operation>
+    <operation name="GetWorkPendingMemoMsg" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetWorkPendingMemoMsg" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetWorkPendingMemoMsgRequest">
+    </input>
+      <output message="tns:GetWorkPendingMemoMsgResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetWorkPendingMemoMsgResponse">
+    </output>
+    </operation>
+    <operation name="GetWorkStatus" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetWorkStatus" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetWorkStatusRequest">
+    </input>
+      <output message="tns:GetWorkStatusResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetWorkStatusResponse">
+    </output>
+    </operation>
+    <operation name="ReplyWorkPendingMemo" parameterOrder="parameters SrvAccountName">
+      <input message="tns:ReplyWorkPendingMemo" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/ReplyWorkPendingMemoRequest">
+    </input>
+      <output message="tns:ReplyWorkPendingMemoResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/ReplyWorkPendingMemoResponse">
+    </output>
+    </operation>
+    <operation name="SubmitWorkRequest" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SubmitWorkRequest" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitWorkRequestRequest">
+    </input>
+      <output message="tns:SubmitWorkRequestResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitWorkRequestResponse">
+    </output>
+    </operation>
+    <operation name="GetUWComments" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetUWComments" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetUWCommentsRequest">
+    </input>
+      <output message="tns:GetUWCommentsResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetUWCommentsResponse">
+    </output>
+    </operation>
+    <operation name="GetFundPriceListHistBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetFundPriceListHistBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetFundPriceListHistBasicRequest">
+    </input>
+      <output message="tns:GetFundPriceListHistBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetFundPriceListHistBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetFundPriceListLatestBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetFundPriceListLatestBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetFundPriceListLatestBasicRequest">
+    </input>
+      <output message="tns:GetFundPriceListLatestBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetFundPriceListLatestBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyAvailFundListBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyAvailFundListBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyAvailFundListBasicRequest">
+    </input>
+      <output message="tns:GetPolicyAvailFundListBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyAvailFundListBasicResponse">
+    </output>
+    </operation>
+    <operation name="ReplyClaimPendingMemo" parameterOrder="parameters SrvAccountName">
+      <input message="tns:ReplyClaimPendingMemo" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/ReplyClaimPendingMemoRequest">
+    </input>
+      <output message="tns:ReplyClaimPendingMemoResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/ReplyClaimPendingMemoResponse">
+    </output>
+    </operation>
+    <operation name="SubmitClaimRequest" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SubmitClaimRequest" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitClaimRequestRequest">
+    </input>
+      <output message="tns:SubmitClaimRequestResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitClaimRequestResponse">
+    </output>
+    </operation>
+    <operation name="SendEMail" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SendEMail" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SendEMailRequest">
+    </input>
+      <output message="tns:SendEMailResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SendEMailResponse">
+    </output>
+    </operation>
+    <operation name="GetMedicalProviderList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetMedicalProviderList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetMedicalProviderListRequest">
+    </input>
+      <output message="tns:GetMedicalProviderListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetMedicalProviderListResponse">
+    </output>
+    </operation>
+    <operation name="UpdateCustomerSenvCode" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UpdateCustomerSenvCode" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateCustomerSenvCodeRequest">
+    </input>
+      <output message="tns:UpdateCustomerSenvCodeResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateCustomerSenvCodeResponse">
+    </output>
+    </operation>
+    <operation name="ValidateUser" parameterOrder="parameters SrvAccountName">
+      <input message="tns:ValidateUser" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/ValidateUserRequest">
+    </input>
+      <output message="tns:ValidateUserResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/ValidateUserResponse">
+    </output>
+    </operation>
+    <operation name="RegisterUser" parameterOrder="parameters SrvAccountName">
+      <input message="tns:RegisterUser" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/RegisterUserRequest">
+    </input>
+      <output message="tns:RegisterUserResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/RegisterUserResponse">
+    </output>
+    </operation>
+    <operation name="CreateUser" parameterOrder="parameters SrvAccountName">
+      <input message="tns:CreateUser" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/CreateUserRequest">
+    </input>
+      <output message="tns:CreateUserResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/CreateUserResponse">
+    </output>
+    </operation>
+    <operation name="UpdateUser" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UpdateUser" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateUserRequest">
+    </input>
+      <output message="tns:UpdateUserResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateUserResponse">
+    </output>
+    </operation>
+    <operation name="GetCompanyList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetCompanyList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetCompanyListRequest">
+    </input>
+      <output message="tns:GetCompanyListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetCompanyListResponse">
+    </output>
+    </operation>
+    <operation name="SetCompanyLink" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SetCompanyLink" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SetCompanyLinkRequest">
+    </input>
+      <output message="tns:SetCompanyLinkResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SetCompanyLinkResponse">
+    </output>
+    </operation>
+    <operation name="UpdatePolicyAgentList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UpdatePolicyAgentList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdatePolicyAgentListRequest">
+    </input>
+      <output message="tns:UpdatePolicyAgentListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdatePolicyAgentListResponse">
+    </output>
+    </operation>
+    <operation name="UpdateAgentHierarchy" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UpdateAgentHierarchy" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateAgentHierarchyRequest">
+    </input>
+      <output message="tns:UpdateAgentHierarchyResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateAgentHierarchyResponse">
+    </output>
+    </operation>
+    <operation name="GetImpairmentCodeList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetImpairmentCodeList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetImpairmentCodeListRequest">
+    </input>
+      <output message="tns:GetImpairmentCodeListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetImpairmentCodeListResponse">
+    </output>
+    </operation>
+    <operation name="GetSensitivityCodeList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetSensitivityCodeList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetSensitivityCodeListRequest">
+    </input>
+      <output message="tns:GetSensitivityCodeListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetSensitivityCodeListResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyBranchCodeList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyBranchCodeList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyBranchCodeListRequest">
+    </input>
+      <output message="tns:GetPolicyBranchCodeListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyBranchCodeListResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyPlanNumberList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyPlanNumberList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPlanNumberListRequest">
+    </input>
+      <output message="tns:GetPolicyPlanNumberListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyPlanNumberListResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyReplacementChangeHistory" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyReplacementChangeHistory" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyReplacementChangeHistoryRequest">
+    </input>
+      <output message="tns:GetPolicyReplacementChangeHistoryResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyReplacementChangeHistoryResponse">
+    </output>
+    </operation>
+    <operation name="UpdatePolicyReplacementDetails" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UpdatePolicyReplacementDetails" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdatePolicyReplacementDetailsRequest">
+    </input>
+      <output message="tns:UpdatePolicyReplacementDetailsResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdatePolicyReplacementDetailsResponse">
+    </output>
+    </operation>
+    <operation name="SendSMS" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SendSMS" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SendSMSRequest">
+    </input>
+      <output message="tns:SendSMSResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SendSMSResponse">
+    </output>
+    </operation>
+    <operation name="SendNotification" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SendNotification" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SendNotificationRequest">
+    </input>
+      <output message="tns:SendNotificationResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SendNotificationResponse">
+    </output>
+    </operation>
+    <operation name="GetEMedicalCardsBasicByCriteria" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetEMedicalCardsBasicByCriteria" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetEMedicalCardsBasicByCriteriaRequest">
+    </input>
+      <output message="tns:GetEMedicalCardsBasicByCriteriaResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetEMedicalCardsBasicByCriteriaResponse">
+    </output>
+    </operation>
+    <operation name="GetEMedicalCardsByCriteria" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetEMedicalCardsByCriteria" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetEMedicalCardsByCriteriaRequest">
+    </input>
+      <output message="tns:GetEMedicalCardsByCriteriaResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetEMedicalCardsByCriteriaResponse">
+    </output>
+    </operation>
+    <operation name="SubmitNBSummary" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SubmitNBSummary" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitNBSummaryRequest">
+    </input>
+      <output message="tns:SubmitNBSummaryResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitNBSummaryResponse">
+    </output>
+    </operation>
+    <operation name="UpdatePersonInfo" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UpdatePersonInfo" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdatePersonInfoRequest">
+    </input>
+      <output message="tns:UpdatePersonInfoResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdatePersonInfoResponse">
+    </output>
+    </operation>
+    <operation name="UpdateCaseInfo" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UpdateCaseInfo" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateCaseInfoRequest">
+    </input>
+      <output message="tns:UpdateCaseInfoResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateCaseInfoResponse">
+    </output>
+    </operation>
+    <operation name="GetUserByCriteria" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetUserByCriteria" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetUserByCriteriaRequest">
+    </input>
+      <output message="tns:GetUserByCriteriaResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetUserByCriteriaResponse">
+    </output>
+    </operation>
+    <operation name="GetUserListByCriteria" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetUserListByCriteria" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetUserListByCriteriaRequest">
+    </input>
+      <output message="tns:GetUserListByCriteriaResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetUserListByCriteriaResponse">
+    </output>
+    </operation>
+    <operation name="GetProspectListBasicByCriteria" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetProspectListBasicByCriteria" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetProspectListBasicByCriteriaRequest">
+    </input>
+      <output message="tns:GetProspectListBasicByCriteriaResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetProspectListBasicByCriteriaResponse">
+    </output>
+    </operation>
+    <operation name="GetProspectBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetProspectBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetProspectBasicRequest">
+    </input>
+      <output message="tns:GetProspectBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetProspectBasicResponse">
+    </output>
+    </operation>
+    <operation name="SubmitLHBApplicationRequest" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SubmitLHBApplicationRequest" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitLHBApplicationRequestRequest">
+    </input>
+      <output message="tns:SubmitLHBApplicationRequestResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitLHBApplicationRequestResponse">
+    </output>
+    </operation>
+    <operation name="UploadFile" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UploadFile" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UploadFileRequest">
+    </input>
+      <output message="tns:UploadFileResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UploadFileResponse">
+    </output>
+    </operation>
+    <operation name="GetMasterList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetMasterList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetMasterListRequest">
+    </input>
+      <output message="tns:GetMasterListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetMasterListResponse">
+    </output>
+    </operation>
+    <operation name="GetDiscountListBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetDiscountListBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetDiscountListBasicRequest">
+    </input>
+      <output message="tns:GetDiscountListBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetDiscountListBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPlanInfoListBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPlanInfoListBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPlanInfoListBasicRequest">
+    </input>
+      <output message="tns:GetPlanInfoListBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPlanInfoListBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetFilteredOFCAPhoneList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetFilteredOFCAPhoneList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetFilteredOFCAPhoneListRequest">
+    </input>
+      <output message="tns:GetFilteredOFCAPhoneListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetFilteredOFCAPhoneListResponse">
+    </output>
+    </operation>
+    <operation name="UpdateWorkingHour" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UpdateWorkingHour" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateWorkingHourRequest">
+    </input>
+      <output message="tns:UpdateWorkingHourResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateWorkingHourResponse">
+    </output>
+    </operation>
+    <operation name="UpdateWorkGroup" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UpdateWorkGroup" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateWorkGroupRequest">
+    </input>
+      <output message="tns:UpdateWorkGroupResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateWorkGroupResponse">
+    </output>
+    </operation>
+    <operation name="GetUWMessages" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetUWMessages" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetUWMessagesRequest">
+    </input>
+      <output message="tns:GetUWMessagesResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetUWMessagesResponse">
+    </output>
+    </operation>
+    <operation name="ReplyUWMessage" parameterOrder="parameters SrvAccountName">
+      <input message="tns:ReplyUWMessage" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/ReplyUWMessageRequest">
+    </input>
+      <output message="tns:ReplyUWMessageResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/ReplyUWMessageResponse">
+    </output>
+    </operation>
+    <operation name="GetMessagePolicyList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetMessagePolicyList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetMessagePolicyListRequest">
+    </input>
+      <output message="tns:GetMessagePolicyListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetMessagePolicyListResponse">
+    </output>
+    </operation>
+    <operation name="GenerateReport" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GenerateReport" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GenerateReportRequest">
+    </input>
+      <output message="tns:GenerateReportResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GenerateReportResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyTransactionHistory" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyTransactionHistory" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyTransactionHistoryRequest">
+    </input>
+      <output message="tns:GetPolicyTransactionHistoryResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyTransactionHistoryResponse">
+    </output>
+    </operation>
+    <operation name="GetPersonPaymentBasic" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPersonPaymentBasic" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonPaymentBasicRequest">
+    </input>
+      <output message="tns:GetPersonPaymentBasicResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonPaymentBasicResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyListStatus_DA" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyListStatus_DA" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyListStatus_DARequest">
+    </input>
+      <output message="tns:GetPolicyListStatus_DAResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyListStatus_DAResponse">
+    </output>
+    </operation>
+    <operation name="SubmitClaim" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SubmitClaim" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitClaimRequest">
+    </input>
+      <output message="tns:SubmitClaimResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitClaimResponse">
+    </output>
+    </operation>
+    <operation name="SendRegistrationCode" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SendRegistrationCode" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SendRegistrationCodeRequest">
+    </input>
+      <output message="tns:SendRegistrationCodeResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SendRegistrationCodeResponse">
+    </output>
+    </operation>
+    <operation name="UpdateWhatsappUser" parameterOrder="parameters SrvAccountName">
+      <input message="tns:UpdateWhatsappUser" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateWhatsappUserRequest">
+    </input>
+      <output message="tns:UpdateWhatsappUserResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/UpdateWhatsappUserResponse">
+    </output>
+    </operation>
+    <operation name="ValidateWhatsappUser" parameterOrder="parameters SrvAccountName">
+      <input message="tns:ValidateWhatsappUser" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/ValidateWhatsappUserRequest">
+    </input>
+      <output message="tns:ValidateWhatsappUserResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/ValidateWhatsappUserResponse">
+    </output>
+    </operation>
+    <operation name="GetRiskProfileHistory" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetRiskProfileHistory" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetRiskProfileHistoryRequest">
+    </input>
+      <output message="tns:GetRiskProfileHistoryResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetRiskProfileHistoryResponse">
+    </output>
+    </operation>
+    <operation name="GetContactHistoryDetails" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetContactHistoryDetails" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetContactHistoryDetailsRequest">
+    </input>
+      <output message="tns:GetContactHistoryDetailsResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetContactHistoryDetailsResponse">
+    </output>
+    </operation>
+    <operation name="GetAuditTrail" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetAuditTrail" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetAuditTrailRequest">
+    </input>
+      <output message="tns:GetAuditTrailResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetAuditTrailResponse">
+    </output>
+    </operation>
+    <operation name="GetPersonListBasicInfo" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPersonListBasicInfo" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonListBasicInfoRequest">
+    </input>
+      <output message="tns:GetPersonListBasicInfoResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonListBasicInfoResponse">
+    </output>
+    </operation>
+    <operation name="SubmitClaimAttachment" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SubmitClaimAttachment" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitClaimAttachmentRequest">
+    </input>
+      <output message="tns:SubmitClaimAttachmentResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitClaimAttachmentResponse">
+    </output>
+    </operation>
+    <operation name="RegisterCareVoiceUser" parameterOrder="parameters SrvAccountName">
+      <input message="tns:RegisterCareVoiceUser" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/RegisterCareVoiceUserRequest">
+    </input>
+      <output message="tns:RegisterCareVoiceUserResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/RegisterCareVoiceUserResponse">
+    </output>
+    </operation>
+    <operation name="GetPolicyNameScreeningList" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPolicyNameScreeningList" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyNameScreeningListRequest">
+    </input>
+      <output message="tns:GetPolicyNameScreeningListResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPolicyNameScreeningListResponse">
+    </output>
+    </operation>
+    <operation name="SubmitPolicyNameScreening" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SubmitPolicyNameScreening" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitPolicyNameScreeningRequest">
+    </input>
+      <output message="tns:SubmitPolicyNameScreeningResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitPolicyNameScreeningResponse">
+    </output>
+    </operation>
+    <operation name="SubmitPolicyAssessment" parameterOrder="parameters SrvAccountName">
+      <input message="tns:SubmitPolicyAssessment" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitPolicyAssessmentRequest">
+    </input>
+      <output message="tns:SubmitPolicyAssessmentResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/SubmitPolicyAssessmentResponse">
+    </output>
+    </operation>
+    <operation name="RegisterPartnerUser" parameterOrder="parameters SrvAccountName">
+      <input message="tns:RegisterPartnerUser" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/RegisterPartnerUserRequest">
+    </input>
+      <output message="tns:RegisterPartnerUserResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/RegisterPartnerUserResponse">
+    </output>
+    </operation>
+    <operation name="GetPersonShortfallBasicByCriteria" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPersonShortfallBasicByCriteria" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonShortfallBasicByCriteriaRequest">
+    </input>
+      <output message="tns:GetPersonShortfallBasicByCriteriaResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonShortfallBasicByCriteriaResponse">
+    </output>
+    </operation>
+    <operation name="GetPersonMovementHistory" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetPersonMovementHistory" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonMovementHistoryRequest">
+    </input>
+      <output message="tns:GetPersonMovementHistoryResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetPersonMovementHistoryResponse">
+    </output>
+    </operation>
+    <operation name="GetClientMemberMovementResult" parameterOrder="parameters SrvAccountName">
+      <input message="tns:GetClientMemberMovementResult" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetClientMemberMovementResultRequest">
+    </input>
+      <output message="tns:GetClientMemberMovementResultResponse" wsam:Action="http://webservice.digital.cigna.com/CignaDigitalWS/GetClientMemberMovementResultResponse">
+    </output>
+    </operation>
+  </portType>
+  <binding name="CignaDigitalWSPortBinding" type="tns:CignaDigitalWS">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="CheckProductEligibilityByCriteria">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:CheckProductEligibilityByCriteria" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="VerifyPolicyInfo">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:VerifyPolicyInfo" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyPersonListBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyPersonListBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyPaymentBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyPaymentBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyPaymentBasic_DA">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyPaymentBasic_DA" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyBillingListBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyBillingListBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyFundListBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyFundListBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyFundListHistBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyFundListHistBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyListBasicByCriteria">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyListBasicByCriteria" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyListBasicByCriteria_DA">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyListBasicByCriteria_DA" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyPersonListBasicByCriteria">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyPersonListBasicByCriteria" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyPersonListBasicByCriteria_DA">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyPersonListBasicByCriteria_DA" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPersonBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPersonBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPersonBasic_DA">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPersonBasic_DA" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyBasic_DA">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyBasic_DA" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetClinicVisitCount">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetClinicVisitCount" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyPersonCoverageBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyPersonCoverageBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyPersonCoverageBasic_DA">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyPersonCoverageBasic_DA" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyClaimBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyClaimBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyPersonListBasic_DA">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyPersonListBasic_DA" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyDocTypeList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyDocTypeList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyDoc">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyDoc" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UpdatePolicyDoc">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UpdatePolicyDoc" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SetNBComplete">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SetNBComplete" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SetNBDropOff">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SetNBDropOff" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPersonListBasicByCriteria_DA">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPersonListBasicByCriteria_DA" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPersonListBasicByCriteria">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPersonListBasicByCriteria" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetClaimListBasicByCriteria">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetClaimListBasicByCriteria" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetBrokerClaimPendingMemoList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetBrokerClaimPendingMemoList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetClaimPendingMemoList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetClaimPendingMemoList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetWorkDoc">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetWorkDoc" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetWorkPendingMemoMsg">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetWorkPendingMemoMsg" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetWorkStatus">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetWorkStatus" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="ReplyWorkPendingMemo">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:ReplyWorkPendingMemo" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SubmitWorkRequest">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SubmitWorkRequest" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetUWComments">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetUWComments" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetFundPriceListHistBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetFundPriceListHistBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetFundPriceListLatestBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetFundPriceListLatestBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyAvailFundListBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyAvailFundListBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="ReplyClaimPendingMemo">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:ReplyClaimPendingMemo" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SubmitClaimRequest">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SubmitClaimRequest" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SendEMail">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SendEMail" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetMedicalProviderList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetMedicalProviderList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UpdateCustomerSenvCode">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UpdateCustomerSenvCode" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="ValidateUser">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:ValidateUser" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="RegisterUser">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:RegisterUser" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="CreateUser">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:CreateUser" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UpdateUser">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UpdateUser" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetCompanyList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetCompanyList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SetCompanyLink">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SetCompanyLink" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UpdatePolicyAgentList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UpdatePolicyAgentList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UpdateAgentHierarchy">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UpdateAgentHierarchy" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetImpairmentCodeList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetImpairmentCodeList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetSensitivityCodeList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetSensitivityCodeList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyBranchCodeList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyBranchCodeList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyPlanNumberList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyPlanNumberList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyReplacementChangeHistory">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyReplacementChangeHistory" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UpdatePolicyReplacementDetails">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UpdatePolicyReplacementDetails" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SendSMS">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SendSMS" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SendNotification">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SendNotification" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetEMedicalCardsBasicByCriteria">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetEMedicalCardsBasicByCriteria" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetEMedicalCardsByCriteria">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetEMedicalCardsByCriteria" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SubmitNBSummary">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SubmitNBSummary" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UpdatePersonInfo">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UpdatePersonInfo" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UpdateCaseInfo">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UpdateCaseInfo" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetUserByCriteria">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetUserByCriteria" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetUserListByCriteria">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetUserListByCriteria" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetProspectListBasicByCriteria">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetProspectListBasicByCriteria" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetProspectBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetProspectBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SubmitLHBApplicationRequest">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SubmitLHBApplicationRequest" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UploadFile">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UploadFile" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetMasterList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetMasterList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetDiscountListBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetDiscountListBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPlanInfoListBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPlanInfoListBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetFilteredOFCAPhoneList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetFilteredOFCAPhoneList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UpdateWorkingHour">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UpdateWorkingHour" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UpdateWorkGroup">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UpdateWorkGroup" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetUWMessages">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetUWMessages" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="ReplyUWMessage">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:ReplyUWMessage" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetMessagePolicyList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetMessagePolicyList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GenerateReport">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GenerateReport" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyTransactionHistory">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyTransactionHistory" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPersonPaymentBasic">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPersonPaymentBasic" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyListStatus_DA">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyListStatus_DA" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SubmitClaim">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SubmitClaim" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SendRegistrationCode">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SendRegistrationCode" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="UpdateWhatsappUser">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:UpdateWhatsappUser" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="ValidateWhatsappUser">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:ValidateWhatsappUser" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetRiskProfileHistory">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetRiskProfileHistory" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetContactHistoryDetails">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetContactHistoryDetails" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetAuditTrail">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetAuditTrail" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPersonListBasicInfo">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPersonListBasicInfo" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SubmitClaimAttachment">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SubmitClaimAttachment" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="RegisterCareVoiceUser">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:RegisterCareVoiceUser" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPolicyNameScreeningList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPolicyNameScreeningList" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SubmitPolicyNameScreening">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SubmitPolicyNameScreening" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="SubmitPolicyAssessment">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:SubmitPolicyAssessment" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="RegisterPartnerUser">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:RegisterPartnerUser" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPersonShortfallBasicByCriteria">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPersonShortfallBasicByCriteria" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetPersonMovementHistory">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetPersonMovementHistory" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="GetClientMemberMovementResult">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body parts="parameters" use="literal"/>
+        <soap:header message="tns:GetClientMemberMovementResult" part="SrvAccountName" use="literal">
+        </soap:header>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="CignaDigitalWSService">
+    <port name="CignaDigitalWSPort" binding="tns:CignaDigitalWSPortBinding">
+      <soap:address location="https://uatws.cigna.com.hk/CignaFW/CignaDigitalWSService"/>
+    </port>
+  </service>
+</definitions>
